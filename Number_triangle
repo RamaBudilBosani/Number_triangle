@@ -1,0 +1,4 @@
+n= int(input("Enter the number: "))
+for i in range(0,n+1):
+    digit=(n+1)-i
+    print((str(digit)+" ") * (n-i+1))
